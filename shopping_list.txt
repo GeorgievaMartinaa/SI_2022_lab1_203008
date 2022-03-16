@@ -1,5 +1,5 @@
 milk x 2
-chocolate x 3
+chocolate x 5
 bread x 1
 eggs x 10
-tomatoes x 5
+tomatoes x 3
