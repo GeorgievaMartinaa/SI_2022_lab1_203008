@@ -1,0 +1,118 @@
+Lab 1 -SI
+
+4. За клонирање ја искористив наредбата $git clone https://github.com/GeorgievaMartinaa/SI_2022_lab1_203008.git
+
+5. Прво правам $git add shopping_list.txt за да го додадам фајлот на сцена, а потоа $ git commit -m "Add 5 items to the shopping list"за да го комитнам.
+
+6. Прво го менувам shopping_list.txt  потоа правам $git add shopping_list.txt и $ git commit -m "Add quantities to the items"
+
+7. Со наредбите $git branch branch1 и $git branch branch2 креирам 2 гранки.
+
+8.
+commit 47cbad1f51464beb3b38822de9c0b51f3321d8ea (HEAD -> master, branch2, branch1)
+Author: GeorgievaMartinaa <martina.georgieva@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:31:51 2022 +0100
+
+    Add quantities to the items
+
+commit 1be33f6c4429576339a0b291e5fe1f1493609d74
+Author: GeorgievaMartinaa <martina.georgieva@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:30:32 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit dfc203a26c87a432cb544160d67cf3b918283fd8 (origin/master, origin/HEAD)
+Author: GeorgievaMartinaa <100592896+GeorgievaMartinaa@users.noreply.github.com>
+Date:   Tue Mar 15 16:18:49 2022 +0100
+
+    Update README.md
+
+commit 983f72e28d81bc2d5c5529915729aff0d11b3383
+Author: GeorgievaMartinaa <100592896+GeorgievaMartinaa@users.noreply.github.com>
+Date:   Tue Mar 15 16:01:03 2022 +0100
+
+    Initial commit
+
+
+9. За синхронизација користам git push и  git push --set-upstream origin branch1
+и  git push --set-upstream origin branch2  за да ги синхронизирам направените гранки.
+
+10. За да се префрлам на гранката branch1 ја користам наредбата git checkout branch1.
+
+11. Ја менувам количината во .txt документот па  правам $git add shopping_list.txt за да го додадам фајлот на сцена, а потоа $ git commit -m "Change quantity of item #5"за да го комитнам.
+
+12. Се враќам на master со наредбата git checkout master.
+
+13. Ја менувам количината во .txt документот па  правам $git add shopping_list.txt за да го додадам фајлот на сцена, а потоа $ git commit -m "Change quantity of item #2"за да го комитнам.
+
+14.  За синхронизација користам git push и  git push --set-upstream origin branch1.
+
+15. git checkout branch2
+
+16.  Ја менувам количината во .txt документот па  правам $git add shopping_list.txt за да го додадам фајлот на сцена, а потоа $ git commit -m "Modify item #4"за да го комитнам.
+
+17. commit 68c4e299f26dd01edb61f47b82544d0830fdffee (HEAD -> branch2)
+Author: GeorgievaMartinaa <martina.georgieva@students.finki.ukim.mk>
+Date:   Wed Mar 16 18:03:56 2022 +0100
+
+    Modify item #4
+
+commit 47cbad1f51464beb3b38822de9c0b51f3321d8ea (origin/branch2)
+Author: GeorgievaMartinaa <martina.georgieva@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:31:51 2022 +0100
+
+    Add quantities to the items
+
+commit 1be33f6c4429576339a0b291e5fe1f1493609d74
+Author: GeorgievaMartinaa <martina.georgieva@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:30:32 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit dfc203a26c87a432cb544160d67cf3b918283fd8
+Author: GeorgievaMartinaa <100592896+GeorgievaMartinaa@users.noreply.github.com>
+Date:   Tue Mar 15 16:18:49 2022 +0100
+
+    Update README.md
+
+commit 983f72e28d81bc2d5c5529915729aff0d11b3383
+Author: GeorgievaMartinaa <100592896+GeorgievaMartinaa@users.noreply.github.com>
+Date:   Tue Mar 15 16:01:03 2022 +0100
+
+    Initial commit
+
+18. Прво додавам 6та ставка во документот потоа ја користам наредбата $git reset –soft HEAD^ за да се вратам еден commit подолу а притоа промените се ресетираат и ставаат во stage. Потоа пишувам $git add shopping_list.txt за да го додадам променетиот фајл и го комитнувам со $git commit -m “Modify item #4 and add item #6”
+
+19.commit 7058481c8403170ebad64ea3076cd4ed0012b57a (HEAD -> branch2)
+Author: GeorgievaMartinaa <martina.georgieva@students.finki.ukim.mk>
+Date:   Wed Mar 16 18:47:45 2022 +0100
+
+    Modify item #4 and add item #6
+
+commit 47cbad1f51464beb3b38822de9c0b51f3321d8ea (origin/branch2)
+Author: GeorgievaMartinaa <martina.georgieva@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:31:51 2022 +0100
+
+    Add quantities to the items
+
+commit 1be33f6c4429576339a0b291e5fe1f1493609d74
+Author: GeorgievaMartinaa <martina.georgieva@students.finki.ukim.mk>
+Date:   Wed Mar 16 17:30:32 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit dfc203a26c87a432cb544160d67cf3b918283fd8
+Author: GeorgievaMartinaa <100592896+GeorgievaMartinaa@users.noreply.github.com>
+Date:   Tue Mar 15 16:18:49 2022 +0100
+
+    Update README.md
+
+commit 983f72e28d81bc2d5c5529915729aff0d11b3383
+Author: GeorgievaMartinaa <100592896+GeorgievaMartinaa@users.noreply.github.com>
+Date:   Tue Mar 15 16:01:03 2022 +0100
+
+    Initial commit
+
+20. Со $git checkout master се префрлам на мастер и со $git merge branch1 ја спојувам гранката branch1 со master.
+
+21. За спојување на  branch2 кон  master исто така ја користам наредбата $git merge branch2 но овде се појавува конфликт па го менувам документот shopping_list.txt  и правам $git commit -a -m “Merge branch2 to master” со што повторно го додавам и комитнувам документот  shopping_list.txt.
